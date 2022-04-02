@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  margin-top: 0.5%;
+  font-family: sans-serif;
+}
+
+.form {
+  padding-left: 35%;
+  padding-right: 30%;
+}
+
+/* NOME E SOBRENOME */
+
+.nome {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+
+#sobrenome1 {
+  margin-left: 20px;
+}
+
+/* EMAIL */
+
+.email {
+  margin-top: 10px;
+  border-radius: 6px;
+  color: blueviolet;
+}
+
+/* TÍTULO E SUBTÍTULO */
+
+h1,
+p {
+  color: #5d00b4;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+/* NOME E SOBRE NOME */
+
+.nomes input {
+  position: relative;
+  display: flex;
+  padding-top: 0.5em;
+  padding-right: 1em;
+  border-radius: 6px;
+  padding: 0.4em 0.5em;
+  border: 1px solid blueviolet;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nomes label {
+  display: inline-block;
+  position: relative;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #5d00b4;
+}
+
+/*EMAIL*/
+
+.email input {
+  position: relative;
+  display: flex;
+  padding: 0.4em 0.5em;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid blueviolet;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.email label {
+  font-family: sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  color: #5d00b4;
+}
+
+/* BOTAO SUBMIT */
+
+.button {
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0% 27%;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #5d00b4;
+}
+
+/* aplicação em rádio */
+
+.app {
+  padding-left: 0%;
+  font-size: 1em;
+  position: relative;
+  margin-top: 25px;
+}
+
+.divradio {
+  color: blueviolet;
+}
+
+#quallado {
+  color: #5d00b4;
+}
+
+.app label {
+  display: flex;
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.app input {
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 7px;
+}
+
+#radio1 {
+  width: 1.15em;
+  height: 1.15em;
+  margin-right: 7px;
+}
+
+/* SENIORIDADE NO SELECT */
+
+.csenioridade {
+  color: #5d00b4;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#senioridade {
+  display: block;
+  padding: 0.4em 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+/* Selecionando a tecnologia */
+
+#selecionetecnologia {
+  color: #5d00b4;
+  font-weight: bold;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+
+.tecnologias {
+  color: blueviolet;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* TEXTAREA */
+
+#conte {
+  display: block;
+  color: #5d00b4;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#textarea {
+  color: blueviolet;
+  border-color: blueviolet;
+  border-radius: 10px;
+  font-size: 1em;
+  padding: 3px 3px;
+}
+
+.error {
+  background-color: rgb(235, 53, 8);
+  color: white;
+  display: block;
+  padding: 5px 7px;
+  font-size: 17px;
+}
